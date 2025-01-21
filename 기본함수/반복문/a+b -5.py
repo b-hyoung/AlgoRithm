@@ -1,0 +1,7 @@
+t = 13
+while t :
+    a , b = map(int,input().split(" "))
+    if(a == 0 & b == 0):
+        break
+    else:
+        print(a+b)
