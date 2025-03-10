@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run C (Terminal)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+            "MIMode": "lldb", 
+            "MIDebuggerPath": "/usr/bin/lldb",  // ✅ macOS에서 LLDB 경로 지정
+            "preLaunchTask": "build and run C"
+        }
+    ]
+}
